@@ -21,40 +21,42 @@
        </div>
 
     <div class="container-fluid box">
+        
+        <div class="row">
+            <input class="answer" placeholder="0" value=""></input>
+        </div>
+       
+        <div class="row btn_outline">
+            <button class="btn_shape lightgray c1 ac">AC</button>
+            <button class="btn_shape lightgray c1" value="" onclick="Pm()">+/_</button>
+            <button class="btn_shape lightgray c1" value="%" onclick="Per()">%</button>
+            <button class="btn_shape vivid c2 " value="/" onclick="Key('/')">/</button>
+        </div>
+        <div class="row btn_outline">
+            <button class="btn_shape liver c2" value="7" onclick="Key('7')">7</button>
+            <button class="btn_shape liver c2" value="8" onclick="Key('8')">8</button>
+            <button class="btn_shape liver c2" value="9" onclick="Key('9')">9</button>
+            <button class="btn_shape vivid c2" value="*" onclick="Key('*')">*</button>
+        </div>
+        <div class="row btn_outline">
+            <button class="btn_shape liver c2" value="4" onclick="Key('4')">4</button>
+            <button class="btn_shape liver c2" value="5" onclick="Key('5')">5</button>
+            <button class="btn_shape liver c2" value="6" onclick="Key('6')">6</button>
+            <button class="btn_shape vivid c2" value="-" onclick="Key('-')">-</button>
+        </div>
+        <div class="row btn_outline">
+            <button class="btn_shape liver c2" value="1" onclick="Key('1')">1</button>
+            <button class="btn_shape liver c2" value="2" onclick="Key('2')">2</button>
+            <button class="btn_shape liver c2" value="3" onclick="Key('3')">3</button>
+            <button class="btn_shape vivid c2" value="+" onclick="Key('+')">+</button>
+        </div>
 
-        <div class="row display">
-            <span class="answer">0</span>
-        </div>
         <div class="row btn_outline">
-            <button class="btn_shape lightgray c1">AC</button>
-            <button class="btn_shape lightgray c1">+/_</button>
-            <button class="btn_shape lightgray c1">%</button>
-            <button class="btn_shape vivid c2">/</button>
-        </div>
-        <div class="row btn_outline">
-            <button class="btn_shape liver c2">7</button>
-            <button class="btn_shape liver c2">8</button>
-            <button class="btn_shape liver c2">9</button>
-            <button class="btn_shape vivid c2">*</button>
-        </div>
-        <div class="row btn_outline">
-            <button class="btn_shape liver c2">4</button>
-            <button class="btn_shape liver c2">5</button>
-            <button class="btn_shape liver c2">6</button>
-            <button class="btn_shape vivid c2">-</button>
-        </div>
-        <div class="row btn_outline">
-            <button class="btn_shape liver c2">1</button>
-            <button class="btn_shape liver c2">2</button>
-            <button class="btn_shape liver c2">3</button>
-            <button class="btn_shape vivid c2">+</button>
-        </div>
-
-        <div class="row btn_outline">
-            <button class="zero liver c2">0</button>
-            <button class="btn_shape liver c2">.</button>
-            <button class="btn_shape vivid c2">=</button>
-        </div>
+            <button class="zero liver c2" value="0" onclick="Key('0')">0</button>
+            <button class="btn_shape liver c2" value="." onclick="Key('.')">.</button>
+            <button class="btn_shape vivid c2" value="=" onclick="Answer()">=</button>
+     
+       </div>
 
 
 

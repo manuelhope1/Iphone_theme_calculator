@@ -19,15 +19,16 @@ body{
     border-radius: 10px;
 }
 
-.display{
-    height: 120px;
-    align-content:flex-end;
-    text-align: end;
-}
 
 .answer{
     font-size: 50px;
     color: white;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    height: 120px;
+    text-align:end;
+    
 }
 
 .btn_outline{
@@ -43,12 +44,15 @@ body{
     border: none;
     font-weight: bolder;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .zero{
     height: 70px;
     border: none;
-    width: 170px;
+    width: 155px;
     border-radius: 50px;
     font-weight: bolder;
     font-size: 20px;
@@ -85,7 +89,7 @@ body{
     height: 45px;
     padding: 7px 15px;
     margin-bottom: 10px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .theme-slider {
